@@ -25,6 +25,7 @@
             side="right"
             mini
             content-class="bg-red-12"
+            v-if="!$q.platform.is.mobile"
         >
             <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
                 <q-list padding class="text-white">
